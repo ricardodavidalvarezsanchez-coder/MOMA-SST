@@ -1,0 +1,2088 @@
+{
+  "app": "MOMA SST",
+  "subtitle": "Gestión de Inspecciones de Seguridad y Salud en el Trabajo",
+  "version": "V8",
+  "generated": "2026-09-16",
+  "companies": {
+    "Morango S.A.S.": {
+      "inspectionTypes": {
+        "Inspección locativa": {
+          "sourceForm": "INSPECCIONES LOCATIVAS(3).xlsx",
+          "code": "Formato inspección locativa",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Peligros Físicos": {
+                  "items": [
+                    {
+                      "code": "1.1",
+                      "text": "Existe buena iluminación artificial y natura?",
+                      "weight": 1.43
+                    },
+                    {
+                      "code": "1.2",
+                      "text": "Las luminarias están en buen estado?",
+                      "weight": 1.43
+                    },
+                    {
+                      "code": "1.3",
+                      "text": "Las persianas, cortinas o protección de vidrios esta en buen estado?",
+                      "weight": 1.42
+                    },
+                    {
+                      "code": "1.4",
+                      "text": "Hay buena ventilación en el área?",
+                      "weight": 1.43
+                    },
+                    {
+                      "code": "1.5",
+                      "text": "El área esta expuesta a ruido? (ruidos entre 80 y 85 dB)",
+                      "weight": 1.43
+                    },
+                    {
+                      "code": "1.6",
+                      "text": "El área de la unidad esta expuesta a temperaturas extremas? (calor y frío)",
+                      "weight": 1.43
+                    },
+                    {
+                      "code": "1.7",
+                      "text": "La unidad esta expuesta a vibración cuerpo entero, segmentaria?",
+                      "weight": 1.43
+                    }
+                  ]
+                },
+                "Peligros Biologico": {
+                  "items": [
+                    {
+                      "code": "2.1",
+                      "text": "En el área de trabajo esta expuesto Virus, bacterias, hongos, rickettsias, parásitos, picaduras, fluidos o excrementos?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "2.2",
+                      "text": "Los colaboradores utilizan los EPP en el momento de la inspecciòn?",
+                      "weight": 1.66
+                    },
+                    {
+                      "code": "2.4",
+                      "text": "El cuarto de residuos se encuentra debidamente señalizado?",
+                      "weight": 1.67
+                    }
+                  ]
+                },
+                "Peligros Biomecánicos": {
+                  "items": [
+                    {
+                      "code": "3.1",
+                      "text": "Existen actividades que generen movimiento repetitivo?",
+                      "weight": 1.25
+                    },
+                    {
+                      "code": "3.2",
+                      "text": "Existen actividades que generen manipulación manual de cargas?",
+                      "weight": 1.25
+                    },
+                    {
+                      "code": "3.3",
+                      "text": "Existen actividades que generen esfuerzo?",
+                      "weight": 1.25
+                    },
+                    {
+                      "code": "3.4",
+                      "text": "Existen actividades que generen postura? (prolongada, Mantenida, forzada y anti gravitacional)",
+                      "weight": 1.25
+                    },
+                    {
+                      "code": "4.1",
+                      "text": "Equipos y herramientas en buen estado?",
+                      "weight": 2.0
+                    },
+                    {
+                      "code": "4.2",
+                      "text": "Se esta expuesto a materiales proyectados, solidos y fluidos?",
+                      "weight": 2.0
+                    },
+                    {
+                      "code": "4.3",
+                      "text": "Los equipos cuentan con parada de emergencia?",
+                      "weight": 2.0
+                    },
+                    {
+                      "code": "4.4",
+                      "text": "Muebles y estantes de la unidad se encuentran anclados y ajustados?",
+                      "weight": 2.0
+                    },
+                    {
+                      "code": "4.5",
+                      "text": "La maquinaria y/o equipos cuentan con guarda de seguridad?",
+                      "weight": 2.0
+                    }
+                  ]
+                },
+                "Peligros Eléctricos": {
+                  "items": [
+                    {
+                      "code": "5.1",
+                      "text": "Cableado y conexiones electricas en buenas condiciones? (sin adiciones y cintas)",
+                      "weight": 2.5
+                    },
+                    {
+                      "code": "5.2",
+                      "text": "Tomacorrientes e interruptores en buen estado, debidamente anclados y señalizados?",
+                      "weight": 2.5
+                    },
+                    {
+                      "code": "5.3",
+                      "text": "Se observa cajas de breakers sin sobrecarga y señalizadas?",
+                      "weight": 2.5
+                    },
+                    {
+                      "code": "5.4",
+                      "text": "Los tableros electricos y cajas de breakers se encuentran cerrados sin acceso a todo el personal? (unicamente personal de mantenimiento y electricistas)",
+                      "weight": 2.5
+                    },
+                    {
+                      "code": "5.5",
+                      "text": "Los tableros y cajas de breakers están libres de obstáculos?",
+                      "weight": 2.5
+                    },
+                    {
+                      "code": "5.6",
+                      "text": "Los interiores de los tableros electricos y cajas de breakers se encuentran libres de objetos inflamables? (papel, cartón, etc)",
+                      "weight": 2.5
+                    }
+                  ]
+                },
+                "Peligros Locativos": {
+                  "items": [
+                    {
+                      "code": "6.1",
+                      "text": "Los muros están en buen estado? (Sin grietas, sin humedad, pintura buen estado).",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.2",
+                      "text": "Escaleras en buen estado? (paso manos y cintas antideslizante).",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.3",
+                      "text": "Pisos en buen estado, cuentan con antideslizantes, con acabados y sin desniveles?",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.4",
+                      "text": "Ventanas, puertas en buen estado (manijas, chapas, sin vidrios fracturados).",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.5",
+                      "text": "Techos en buen estado (tejado sin fisuras o rotas, sin goteras).",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.6",
+                      "text": "Áreas de circulación despejadas (escaleras, zonas de transito en almacén, etc.).",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "6.7",
+                      "text": "La sillas se encuentran en buen estado? (ajustable a las necesidades de la persona)",
+                      "weight": 1.84
+                    },
+                    {
+                      "code": "6.8",
+                      "text": "Las divisiones modulares, escritorio y cajones se encuentran en buenas condiciones. (anclados y ajustados)",
+                      "weight": 1.88
+                    },
+                    {
+                      "code": "7.1",
+                      "text": "La empresa cuenta con plan de emergencia y contingencia?",
+                      "weight": 3.33
+                    },
+                    {
+                      "code": "7.2",
+                      "text": "Se cuenta con Planes Operativos Normalizados en caso Sismo, Terremoto, vendaval, Inundación, derrumbe y Precipitaciones? (lluvias, granizadas, heladas)",
+                      "weight": 3.33
+                    },
+                    {
+                      "code": "7.3",
+                      "text": "La ruta de evacuación se encuentra señalizada y libre de obstáculos?",
+                      "weight": 3.33
+                    },
+                    {
+                      "code": "7.4",
+                      "text": "Las salida de emergencia y punto de encuentro se encuentran despejadas y señalizadas?",
+                      "weight": 3.33
+                    },
+                    {
+                      "code": "7.5",
+                      "text": "Los gabinetes y red contra incendios se encuentran funcionales?",
+                      "weight": 3.35
+                    },
+                    {
+                      "code": "7.6",
+                      "text": "La brigada se encuentra identificada?",
+                      "weight": 3.33
+                    },
+                    {
+                      "code": "8.1",
+                      "text": "Los pasillos de transito se encuentran despejados?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "8.2",
+                      "text": "El àrea de traajo cuenta con puntos ecológicos de disposición de residuos?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "8.3",
+                      "text": "El sitio inspeccionado se encuentra en buen estado de aseo y mantenimiento.",
+                      "weight": 1.66
+                    }
+                  ]
+                },
+                "Peligros Quimicos": {
+                  "items": [
+                    {
+                      "code": "9.1",
+                      "text": "¿Están etiquetados claramente todos los materiales químicos y trasvases con el nombre y los símbolos de peligro del Sistema Globalmente Armonizado - SGA?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.2",
+                      "text": "¿Están disponibles para fácil acceso y consulta las Fichas de Datos de Seguridad - FDS de los productos químicos y diluciones?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.3",
+                      "text": "¿Están señalizadas las áreas de almacenamiento con la identificación de almacenamiento de sustancias químicas y matriz de compatibilidad?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.4",
+                      "text": "¿Hay sistemas de retención y/ contención de fugas o derrames?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.5",
+                      "text": "¿Están almacenados todos los materiales químicos en recipientes adecuados y seguros, que no sean de alimentos?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.6",
+                      "text": "¿La ventilación es adecuada en el área para la manipulación de las sustancias químicas?",
+                      "weight": 1.66
+                    },
+                    {
+                      "code": "9.7",
+                      "text": "¿Los envases se encuentra hermeticamente cerrados con su tapa original?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.8",
+                      "text": "¿Cuenta con elementos de protección personal para la dilusión de las sustancias químicas (guantes de nitrilo, peto de PVC, gafas contra salpicaduras?",
+                      "weight": 1.67
+                    },
+                    {
+                      "code": "9.9",
+                      "text": "¿Cuenta con elementos seguros para dilución de sustancias quimicas (probetas, envases rotulados que no sean rotulados?",
+                      "weight": 1.65
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Orden y aseo – área administrativa": {
+          "sourceForm": "FORMATO DE INSPECCION ORDEN Y ASEO(1).xlsx",
+          "code": "Versión 01",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Orden y aseo": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "Escritorio limpio y libre de polvo."
+                    },
+                    {
+                      "code": "2",
+                      "text": "Superficie ordenada, sin acumulación de papeles u objetos."
+                    },
+                    {
+                      "code": "3",
+                      "text": "Cajones organizados; sin elementos innecesarios."
+                    },
+                    {
+                      "code": "4",
+                      "text": "PC, teclado, mouse y teléfono limpios y funcionales."
+                    },
+                    {
+                      "code": "5",
+                      "text": "Gestión de cables: organizados, sin enredos ni riesgos de tropiezo."
+                    },
+                    {
+                      "code": "6",
+                      "text": "Papelera con bolsa, sin desbordes y con separación de residuos."
+                    },
+                    {
+                      "code": "7",
+                      "text": "Elementos personales mínimos y en orden."
+                    },
+                    {
+                      "code": "8",
+                      "text": "Silla limpia y en buen estado"
+                    },
+                    {
+                      "code": "9",
+                      "text": "Área de circulación alrededor del puesto libre de obstáculos."
+                    },
+                    {
+                      "code": "10",
+                      "text": "Limpieza de superficies de alto contacto (manijas, apoyabrazos)."
+                    },
+                    {
+                      "code": "11",
+                      "text": "Botellas de agua/tazas con tapa y ubicadas lejos de equipos eléctricos."
+                    },
+                    {
+                      "code": "12",
+                      "text": "Área bajo el escritorio libre de cajas, bolsas u otros objetos."
+                    },
+                    {
+                      "code": "13",
+                      "text": "Orden en paredes/tableros: sin exceso de papeles adheridos."
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Riesgo químico": {
+          "sourceForm": "FORMATO INSPECCION RIESGO QUIMICO MORANGO(1).xlsx",
+          "code": "Lista de inspección riesgo químico",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Riesgo químico": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "¿Están etiquetados claramente todos los materiales químicos con el nombre y el símbolo o los símbolos de peligro del Sistema Globalmente Armonizado - SGA?"
+                    },
+                    {
+                      "code": "2",
+                      "text": "¿Están disponibles para fácil acceso y consulta las Fichas de Datos de Seguridad - FDS de los productos químicos?"
+                    },
+                    {
+                      "code": "3",
+                      "text": "¿Están señalizadas las áreas de almacenamiento con la identificación de almacenamiento de sustancias químicas?"
+                    },
+                    {
+                      "code": "4",
+                      "text": "¿Esta publicada la matriz de compatibilidad de las sustancias químicas ?"
+                    },
+                    {
+                      "code": "5",
+                      "text": "¿Están los productos químicos almacenados acorde con la matriz de compatibilidad?"
+                    },
+                    {
+                      "code": "6",
+                      "text": "¿Están separadas las sustancias líquidas de las sólidas?"
+                    },
+                    {
+                      "code": "7",
+                      "text": "¿Hay sistemas de retención y/ contención de fugas o derrames como diques, estibas con contención o bandejas?"
+                    },
+                    {
+                      "code": "8",
+                      "text": "¿Están almacenados todos los materiales químicos en recipientes adecuados y seguros?"
+                    },
+                    {
+                      "code": "9",
+                      "text": "¿Se observan recipientes deteriorados por el contenido de materiales peligrosos?"
+                    },
+                    {
+                      "code": "10",
+                      "text": "¿Se observan zonas de almacenamiento de materiales químicos bien ventiladas y situadas lejos de las fuentes de ignición?"
+                    },
+                    {
+                      "code": "12",
+                      "text": "¿Los productos en uso se encuentran en recipientes adecuados y que estos no sean de alimentos o cosméticos?"
+                    },
+                    {
+                      "code": "13",
+                      "text": "¿Se cuentan con elementos adecuados para realizar los trasvases de las sustancias químicas?"
+                    },
+                    {
+                      "code": "14",
+                      "text": "¿El personal que manipula las sustancias químicas conoce los peligros de cada una de ellas a los que se encuentra expuesto?"
+                    },
+                    {
+                      "code": "15",
+                      "text": "¿El personal porta los EPP (elementos de protección personal) adecuados, para la sustancia química que manipula? / Verifique las etiquetas, FDS o Matriz de EPP"
+                    },
+                    {
+                      "code": "16",
+                      "text": "¿El estado de los EPP (elementos de protección personal) es el optimo?"
+                    },
+                    {
+                      "code": "17",
+                      "text": "¿La ventilación es adecuada en el área para la manipulación de las sustancias químicas?"
+                    },
+                    {
+                      "code": "18",
+                      "text": "En caso de manipular sustancias inflamables. ¿ Existen controles para no generar chispa (dispositivos eléctricos antichispa, sistemas polo a tierra, etc.)?"
+                    },
+                    {
+                      "code": "19",
+                      "text": "¿Se cuenta con Kit para atención de derrames?"
+                    },
+                    {
+                      "code": "20",
+                      "text": "¿El kit para atención de derrames se ajusta a las necesidades del área?"
+                    },
+                    {
+                      "code": "21",
+                      "text": "¿ se cuenta con extintor?"
+                    },
+                    {
+                      "code": "22",
+                      "text": "¿se cuenta con ducha lavaojos ?"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de botiquín": {
+          "sourceForm": "F-GS-35 INSPECCIÓN BOTIQUIN.xlsx",
+          "code": "F-GS-35",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Botiquín": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "ESPARADRAPO DE TELA ROLLO 4\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "2",
+                      "text": "BAJALENGUAS",
+                      "meta": {
+                        "presentacion": "PAQUETE X 20UND",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "4",
+                      "text": "GASAS ESTERILES",
+                      "meta": {
+                        "presentacion": "PAQUETE X 3UND",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "5",
+                      "text": "GUANTES DE LATEX",
+                      "meta": {
+                        "presentacion": "CAJA X 20 UND",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "6",
+                      "text": "VENDA ELASTICA 2X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "7",
+                      "text": "VENDA ELASTICA 3X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "8",
+                      "text": "VENDA ELASTICA 5X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "9",
+                      "text": "VENDA ALGODÓN 3X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "10",
+                      "text": "VENDA DE ALGODÓN 5X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "11",
+                      "text": "JABON QUIRURGICO",
+                      "meta": {
+                        "presentacion": "FRASCO X 120ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "12",
+                      "text": "SOLUCION SALINA 9%",
+                      "meta": {
+                        "presentacion": "BOLSA 100 ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "13",
+                      "text": "TERMOMETRO DE MERCURIO O DIGITAL",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "14",
+                      "text": "ALCOHOL ANTISEPTICO",
+                      "meta": {
+                        "presentacion": "FRASCO X 275ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "15",
+                      "text": "CURAS",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "16",
+                      "text": "MICROPORE ROLLO 4\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "17",
+                      "text": "TIJERAS DE TRAUMA",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "18",
+                      "text": "PARCHE OCULAR",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de vehículos": {
+          "sourceForm": "F-GS-36 INSPECCIÓN DE VEHICULOS.xlsx",
+          "code": "F-GS-36",
+          "scale": "SI/NO/NA + B/R/M",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Vehículo": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "Tarjeta de propiedad"
+                    },
+                    {
+                      "code": "2",
+                      "text": "Seguro obligatorio (SOAT)"
+                    },
+                    {
+                      "code": "3",
+                      "text": "Seguro todo riesgo"
+                    },
+                    {
+                      "code": "4",
+                      "text": "Revisión tecnico mecánicas y de gases"
+                    },
+                    {
+                      "code": "5",
+                      "text": "Estibas"
+                    },
+                    {
+                      "code": "6",
+                      "text": "Puertas"
+                    },
+                    {
+                      "code": "7",
+                      "text": "Laminas"
+                    },
+                    {
+                      "code": "8",
+                      "text": "Pintura"
+                    },
+                    {
+                      "code": "9",
+                      "text": "Llanta Delantera Derecha"
+                    },
+                    {
+                      "code": "10",
+                      "text": "Llanta Delantera Izquierda"
+                    },
+                    {
+                      "code": "11",
+                      "text": "Llanta Trasera Derecha"
+                    },
+                    {
+                      "code": "12",
+                      "text": "Llanta Trasera Izquierda"
+                    },
+                    {
+                      "code": "13",
+                      "text": "Llanta de Repuesto"
+                    },
+                    {
+                      "code": "14",
+                      "text": "Iluminación cabina"
+                    },
+                    {
+                      "code": "15",
+                      "text": "Cinturones de Seguridad"
+                    },
+                    {
+                      "code": "16",
+                      "text": "Plumillas Limpiavidrios"
+                    },
+                    {
+                      "code": "17",
+                      "text": "Vidrios Parabrisas"
+                    },
+                    {
+                      "code": "18",
+                      "text": "Vidrios Laterales"
+                    },
+                    {
+                      "code": "19",
+                      "text": "Vidrios Traseros"
+                    },
+                    {
+                      "code": "20",
+                      "text": "Luces Principales de alta"
+                    },
+                    {
+                      "code": "21",
+                      "text": "Luces Principales de baja"
+                    },
+                    {
+                      "code": "22",
+                      "text": "Luces Estacionarias"
+                    },
+                    {
+                      "code": "23",
+                      "text": "Espejos laterales"
+                    },
+                    {
+                      "code": "24",
+                      "text": "Espejo retrovisor"
+                    },
+                    {
+                      "code": "25",
+                      "text": "Asientos"
+                    },
+                    {
+                      "code": "26",
+                      "text": "Cojineria"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección EPP": {
+          "sourceForm": "F-GS-37 INSPECCIÓN EPP.xls",
+          "code": "F-GS-37",
+          "scale": "B/M/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "EPP": {
+                  "items": [
+                    {
+                      "code": "EPP2",
+                      "text": "CASCO"
+                    },
+                    {
+                      "code": "EPP3",
+                      "text": "BOTAS CUERO SEGURIDAD"
+                    },
+                    {
+                      "code": "EPP4",
+                      "text": "BOTAS CAUCHO SEG."
+                    },
+                    {
+                      "code": "EPP5",
+                      "text": "ZAPATO ANTIDESLIZANTE"
+                    },
+                    {
+                      "code": "EPP6",
+                      "text": "PETO"
+                    },
+                    {
+                      "code": "EPP7",
+                      "text": "PIJAMA"
+                    },
+                    {
+                      "code": "EPP8",
+                      "text": "CHAQUETA TERMICA"
+                    },
+                    {
+                      "code": "EPP9",
+                      "text": "GUANTES PARA HORNEAR"
+                    },
+                    {
+                      "code": "EPP10",
+                      "text": "GUANTES TERMICOS"
+                    },
+                    {
+                      "code": "EPP11",
+                      "text": "GUANTES ANTICORTE"
+                    },
+                    {
+                      "code": "EPP12",
+                      "text": "GUANTES CAUCHO"
+                    },
+                    {
+                      "code": "EPP13",
+                      "text": "GUANTES NITRILO"
+                    },
+                    {
+                      "code": "EPP14",
+                      "text": "MANGAS"
+                    },
+                    {
+                      "code": "EPP15",
+                      "text": "GUANTE NYLON POLIURETANO"
+                    },
+                    {
+                      "code": "EPP16",
+                      "text": "GUANTE POLIESTER CON PUNTOS"
+                    },
+                    {
+                      "code": "EPP17",
+                      "text": "RESP. VAPORES ORGANICOS"
+                    },
+                    {
+                      "code": "EPP18",
+                      "text": "RESP. MATERIAL PARTICULADO"
+                    },
+                    {
+                      "code": "EPP19",
+                      "text": "TAPABOCAS"
+                    },
+                    {
+                      "code": "EPP20",
+                      "text": "GAFAS SEGURIDAD"
+                    },
+                    {
+                      "code": "EPP21",
+                      "text": "CARETA PARA ESMERILAR"
+                    },
+                    {
+                      "code": "EPP22",
+                      "text": "MONOGAFAS"
+                    },
+                    {
+                      "code": "EPP23",
+                      "text": "CARETA SOLDADURA"
+                    },
+                    {
+                      "code": "EPP24",
+                      "text": "TAPAOIDOS COPA"
+                    },
+                    {
+                      "code": "EPP25",
+                      "text": "TAPAOIDOS DE INSERCION"
+                    },
+                    {
+                      "code": "EPP26",
+                      "text": "ARNES"
+                    },
+                    {
+                      "code": "EPP27",
+                      "text": "ESLINGAS"
+                    },
+                    {
+                      "code": "EPP28",
+                      "text": "MOSQUETONES"
+                    },
+                    {
+                      "code": "EPP29",
+                      "text": "BARBUQUEJO"
+                    },
+                    {
+                      "code": "EPP30",
+                      "text": "LINEA DE VIDA"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de extintores": {
+          "sourceForm": "F-GS-38 INSPECCIÓN EXTINTOR.xlsx",
+          "code": "F-GS-38",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Extintor": {
+                  "items": [
+                    {
+                      "code": "E1",
+                      "text": "Manómetro en buen estado"
+                    },
+                    {
+                      "code": "E2",
+                      "text": "Peso y presión normal"
+                    },
+                    {
+                      "code": "E3",
+                      "text": "Boquilla, válvula y manguera en buen estado"
+                    },
+                    {
+                      "code": "E4",
+                      "text": "Pin ajustado"
+                    },
+                    {
+                      "code": "E5",
+                      "text": "Manija y palanca en buen estado"
+                    },
+                    {
+                      "code": "E6",
+                      "text": "Tiene anillo de servicio"
+                    },
+                    {
+                      "code": "E7",
+                      "text": "Envase libre de corrosiones y daños externos"
+                    },
+                    {
+                      "code": "E8",
+                      "text": "Mantiene la etiqueta de instrucciones de uso en buen estado"
+                    },
+                    {
+                      "code": "E9",
+                      "text": "Señalización con fijación permanente al equipo y visible"
+                    },
+                    {
+                      "code": "E10",
+                      "text": "Está visible y sin obstáculos"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de gabinetes contra-incendios": {
+          "sourceForm": "F-GS-39 INSPECCIÓN GABINETE CONTRA-INCENDIOS.xlsx",
+          "code": "F-GS-39",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Gabinetes": {
+                  "items": [
+                    {
+                      "code": "G5",
+                      "text": "SOPORTE CANASTILLA PARA MANGUERA EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G6",
+                      "text": "LLAVE SPANNER DE UN SOLO SERVICIO Y EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G7",
+                      "text": "HACHA EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G8",
+                      "text": "EXTINTOR BUEN ESTADO"
+                    },
+                    {
+                      "code": "G9",
+                      "text": "BOQUILLA CHORRO NIEBLLA"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de maquinaria y equipos": {
+          "sourceForm": "INSPECCIONES A MAQUINARIAS Y EQUIPOS.xlsx",
+          "code": "Formato inspección maquinaria y equipos",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Maquinaria/equipo": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "El equipo cuenta con parada de emergencia"
+                    },
+                    {
+                      "code": "2",
+                      "text": "El equipo cuenta con guarda de seguridad"
+                    },
+                    {
+                      "code": "3",
+                      "text": "El equipo tiene señalización de seguridad (Riesgo de atrapamiento, riesgo electrico, etc)"
+                    },
+                    {
+                      "code": "4",
+                      "text": "Se encuentran elementos ajenos al equipo dentro de este u obstruyendo su proceso"
+                    },
+                    {
+                      "code": "5",
+                      "text": "El equipo a presentado fallas en los ultimos 2 meses"
+                    },
+                    {
+                      "code": "6",
+                      "text": "(solo si la pregunta anterior fue afirmativa) Dicha falla ya fue intervenida y solucionada"
+                    },
+                    {
+                      "code": "7",
+                      "text": "El equipo a presentado sonidos o vibraciones mas fuertes de las que presenta normalmente"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de chaquetas térmicas": {
+          "sourceForm": "INSPECCIONES DE CHAQUETAS TERMICAS.xlsx",
+          "code": "Formato inspección chaquetas térmicas",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Chaqueta térmica": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "La chaqueta se encuentra limpia?"
+                    },
+                    {
+                      "code": "2",
+                      "text": "La chaqueta es del área asignada?"
+                    },
+                    {
+                      "code": "3",
+                      "text": "La chaqueta se encuentra ubicada en su lugar designado para guardarse?"
+                    },
+                    {
+                      "code": "4",
+                      "text": "¿El jefe de área avala que la chaqueta se encuentra en buen estado?"
+                    },
+                    {
+                      "code": "5",
+                      "text": "Las costuras de la chaqueta se encuentran en buen estado y sin orificios"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Somos Masa S.A.S.": {
+      "inspectionTypes": {
+        "Inspección locativa": {
+          "sourceForm": "INSPECCIONES LOCATIVAS(4).xlsx",
+          "code": "Formato inspección locativa",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Peligros Físicos": {
+                  "items": [
+                    {
+                      "code": "1.1",
+                      "text": "Existe buena iluminación artificial y natura?",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.2",
+                      "text": "Las luminarias están en buen estado?",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.3",
+                      "text": "Las persianas, cortinas o protección de vidrios esta en buen estado?",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.4",
+                      "text": "Hay buena ventilación en el área?",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.5",
+                      "text": "El área esta expuesta a ruido? (ruidos entre 80 y 85 dB)",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.6",
+                      "text": "El área de la unidad esta expuesta a temperaturas extremas? (calor y frío)",
+                      "weight": null
+                    },
+                    {
+                      "code": "1.7",
+                      "text": "La unidad esta expuesta a vibración cuerpo entero, segmentaria?",
+                      "weight": null
+                    }
+                  ]
+                },
+                "Peligros Biológicos": {
+                  "items": [
+                    {
+                      "code": "2.1",
+                      "text": "En el área de trabajo esta expuesto Virus, bacterias, hongos, rickettsias, parásitos, picaduras, fluidos o excrementos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "2.2",
+                      "text": "Los colaboradores utilizan los EPP en el momento de la inspecciòn?",
+                      "weight": null
+                    },
+                    {
+                      "code": "2.4",
+                      "text": "El cuarto de residuos se encuentra debidamente señalizado?",
+                      "weight": null
+                    }
+                  ]
+                },
+                "Peligros Biomecánicos": {
+                  "items": [
+                    {
+                      "code": "3.1",
+                      "text": "Existen actividades que generen movimiento repetitivo?",
+                      "weight": null
+                    },
+                    {
+                      "code": "3.2",
+                      "text": "Existen actividades que generen manipulación manual de cargas?",
+                      "weight": null
+                    },
+                    {
+                      "code": "3.3",
+                      "text": "Existen actividades que generen esfuerzo?",
+                      "weight": null
+                    },
+                    {
+                      "code": "3.4",
+                      "text": "Existen actividades que generen postura? (prolongada, Mantenida, forzada y anti gravitacional)",
+                      "weight": null
+                    },
+                    {
+                      "code": "4.1",
+                      "text": "Equipos y herramientas en buen estado?",
+                      "weight": null
+                    },
+                    {
+                      "code": "4.2",
+                      "text": "Se esta expuesto a materiales proyectados, solidos y fluidos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "4.3",
+                      "text": "Los equipos cuentan con parada de emergencia?",
+                      "weight": null
+                    },
+                    {
+                      "code": "4.4",
+                      "text": "Muebles y estantes de la unidad se encuentran anclados y ajustados?",
+                      "weight": null
+                    },
+                    {
+                      "code": "4.5",
+                      "text": "La maquinaria y/o equipos cuentan con guarda de seguridad?",
+                      "weight": null
+                    }
+                  ]
+                },
+                "Peligros Eléctricos": {
+                  "items": [
+                    {
+                      "code": "5.1",
+                      "text": "Cableado y conexiones electricas en buenas condiciones? (sin adiciones y cintas)",
+                      "weight": null
+                    },
+                    {
+                      "code": "5.2",
+                      "text": "Tomacorrientes e interruptores en buen estado, debidamente anclados y señalizados?",
+                      "weight": null
+                    },
+                    {
+                      "code": "5.3",
+                      "text": "Se observa cajas de breakers sin sobrecarga y señalizadas?",
+                      "weight": null
+                    },
+                    {
+                      "code": "5.4",
+                      "text": "Los tableros electricos y cajas de breakers se encuentran cerrados sin acceso a todo el personal? (unicamente personal de mantenimiento y electricistas)",
+                      "weight": null
+                    },
+                    {
+                      "code": "5.5",
+                      "text": "Los tableros y cajas de breakers están libres de obstáculos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "5.6",
+                      "text": "Los interiores de los tableros electricos y cajas de breakers se encuentran libres de objetos inflamables? (papel, cartón, etc)",
+                      "weight": null
+                    }
+                  ]
+                },
+                "Peligros Locativos": {
+                  "items": [
+                    {
+                      "code": "6.1",
+                      "text": "Los muros están en buen estado? (Sin grietas, sin humedad, pintura buen estado).",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.2",
+                      "text": "Escaleras en buen estado? (paso manos y cintas antideslizante).",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.3",
+                      "text": "Pisos en buen estado, cuentan con antideslizantes, con acabados y sin desniveles?",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.4",
+                      "text": "Ventanas, puertas en buen estado (manijas, chapas, sin vidrios fracturados).",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.5",
+                      "text": "Techos en buen estado (tejado sin fisuras o rotas, sin goteras).",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.6",
+                      "text": "Áreas de circulación despejadas (escaleras, zonas de transito en almacén, etc.).",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.7",
+                      "text": "La sillas se encuentran en buen estado? (ajustable a las necesidades de la persona)",
+                      "weight": null
+                    },
+                    {
+                      "code": "6.8",
+                      "text": "Las divisiones modulares, escritorio y cajones se encuentran en buenas condiciones. (anclados y ajustados)",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.1",
+                      "text": "La empresa cuenta con plan de emergencia y contingencia?",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.2",
+                      "text": "Se cuenta con Planes Operativos Normalizados en caso Sismo, Terremoto, vendaval, Inundación, derrumbe y Precipitaciones? (lluvias, granizadas, heladas)",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.3",
+                      "text": "La ruta de evacuación se encuentra señalizada y libre de obstáculos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.4",
+                      "text": "Las salida de emergencia y punto de encuentro se encuentran despejadas y señalizadas?",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.5",
+                      "text": "Los gabinetes y red contra incendios se encuentran funcionales?",
+                      "weight": null
+                    },
+                    {
+                      "code": "7.6",
+                      "text": "La brigada se encuentra identificada?",
+                      "weight": null
+                    },
+                    {
+                      "code": "8.1",
+                      "text": "Los pasillos de transito se encuentran despejados?",
+                      "weight": null
+                    },
+                    {
+                      "code": "8.2",
+                      "text": "El àrea de traajo cuenta con puntos ecológicos de disposición de residuos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "8.3",
+                      "text": "El sitio inspeccionado se encuentra en buen estado de aseo y mantenimiento.",
+                      "weight": null
+                    }
+                  ]
+                },
+                "Peligros Quimicos": {
+                  "items": [
+                    {
+                      "code": "9.1",
+                      "text": "¿Están etiquetados claramente todos los materiales químicos con el nombre y el símbolo o los símbolos de peligro del Sistema Globalmente Armonizado - SGA?",
+                      "weight": null
+                    },
+                    {
+                      "code": "9.2",
+                      "text": "¿Están disponibles para fácil acceso y consulta las Fichas de Datos de Seguridad - FDS de los productos químicos?",
+                      "weight": null
+                    },
+                    {
+                      "code": "9.3",
+                      "text": "¿Están señalizadas las áreas de almacenamiento con la identificación de almacenamiento de sustancias químicas?",
+                      "weight": null
+                    },
+                    {
+                      "code": "9.4",
+                      "text": "¿Hay sistemas de retención y/ contención de fugas o derrames?",
+                      "weight": null
+                    },
+                    {
+                      "code": "9.5",
+                      "text": "¿Están almacenados todos los materiales químicos en recipientes adecuados y seguros?",
+                      "weight": null
+                    },
+                    {
+                      "code": "9.6",
+                      "text": "¿La ventilación es adecuada en el área para la manipulación de las sustancias químicas?",
+                      "weight": null
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de botiquín": {
+          "sourceForm": "INSPECCIÓN BOTIQUIN SOMOS MASA SAS.xlsx",
+          "code": "F-GS-35",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Botiquín": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "ESPARADRAPO DE TELA ROLLO 4\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "2",
+                      "text": "BAJALENGUAS",
+                      "meta": {
+                        "presentacion": "PAQUETE X 20UND",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "4",
+                      "text": "GASAS ESTERILES",
+                      "meta": {
+                        "presentacion": "PAQUETE X 3UND",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "5",
+                      "text": "GUANTES DE LATEX",
+                      "meta": {
+                        "presentacion": "PAR",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "6",
+                      "text": "VENDA ELASTICA 2X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "7",
+                      "text": "VENDA ELASTICA 3X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "8",
+                      "text": "VENDA ELASTICA 5X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "9",
+                      "text": "VENDA ALGODÓN 3X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "10",
+                      "text": "VENDA DE ALGODÓN 5X5\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "11",
+                      "text": "JABON QUIRURGICO",
+                      "meta": {
+                        "presentacion": "FRASCO X 120ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "12",
+                      "text": "SOLUCION SALINA 9%",
+                      "meta": {
+                        "presentacion": "BOLSA 100 ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "13",
+                      "text": "TERMOMETRO DE MERCURIO O DIGITAL",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "14",
+                      "text": "ALCOHOL ANTISEPTICO",
+                      "meta": {
+                        "presentacion": "FRASCO X 275ML",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "15",
+                      "text": "CURAS",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "16",
+                      "text": "MICROPORE ROLLO 4\"",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "17",
+                      "text": "TIJERAS",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    },
+                    {
+                      "code": "18",
+                      "text": "PARCHE OCULAR",
+                      "meta": {
+                        "presentacion": "UNIDAD",
+                        "existencia_minima": null
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inventario botiquín": {
+          "sourceForm": "INVENTARIO BOTIQUIN SOMOS MASA.xlsx",
+          "code": "Inventario",
+          "scale": "Bueno/Regular/Malo",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Inventario": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "PULSIOXÌMETRO"
+                    },
+                    {
+                      "code": "2",
+                      "text": "TERMOMETRO DIGITAL"
+                    },
+                    {
+                      "code": "3",
+                      "text": "TERMOMETRO DE MERCURIO"
+                    },
+                    {
+                      "code": "4",
+                      "text": "GUANTES DE LATEX"
+                    },
+                    {
+                      "code": "5",
+                      "text": "PARCHES OCULARES"
+                    },
+                    {
+                      "code": "6",
+                      "text": "GASAS NO TEJIDAS"
+                    },
+                    {
+                      "code": "7",
+                      "text": "CURAS"
+                    },
+                    {
+                      "code": "8",
+                      "text": "JABON QUIRURGICO"
+                    },
+                    {
+                      "code": "9",
+                      "text": "SOLUCIÒN SALINA"
+                    },
+                    {
+                      "code": "10",
+                      "text": "ALCOHOL ETILICO"
+                    },
+                    {
+                      "code": "11",
+                      "text": "CREMA SULFODIAZINA DE PLATA 1%"
+                    },
+                    {
+                      "code": "12",
+                      "text": "BAJALENGUAS"
+                    },
+                    {
+                      "code": "13",
+                      "text": "TIJERA TRAUMA"
+                    },
+                    {
+                      "code": "14",
+                      "text": "VENDAS ELASTICAS 2X5"
+                    },
+                    {
+                      "code": "15",
+                      "text": "VENDAS ELASTICAS 3X5"
+                    },
+                    {
+                      "code": "16",
+                      "text": "VENDAS ELASTICAS 5X5"
+                    },
+                    {
+                      "code": "17",
+                      "text": "VENDAS DE ALGODON 3X5"
+                    },
+                    {
+                      "code": "18",
+                      "text": "VENDAS DE ALGODON 5X5"
+                    },
+                    {
+                      "code": "19",
+                      "text": "MICROPORE 2\"X5Y"
+                    },
+                    {
+                      "code": "20",
+                      "text": "ESPARADRAPO 4X5"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección EPP": {
+          "sourceForm": "INSPECCIÓN EPP SOMOS MASA SAS.xls",
+          "code": "F-GS-37",
+          "scale": "B/M/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "EPP": {
+                  "items": [
+                    {
+                      "code": "EPP2",
+                      "text": "CASCO"
+                    },
+                    {
+                      "code": "EPP3",
+                      "text": "BOTAS CUERO SEGURIDAD"
+                    },
+                    {
+                      "code": "EPP4",
+                      "text": "BOTAS CAUCHO SEG."
+                    },
+                    {
+                      "code": "EPP5",
+                      "text": "ZAPATO ANTIDESLIZANTE"
+                    },
+                    {
+                      "code": "EPP6",
+                      "text": "TENIS"
+                    },
+                    {
+                      "code": "EPP7",
+                      "text": "PETO"
+                    },
+                    {
+                      "code": "EPP8",
+                      "text": "PIJAMA"
+                    },
+                    {
+                      "code": "EPP9",
+                      "text": "CHAQUETA TERMICA"
+                    },
+                    {
+                      "code": "EPP10",
+                      "text": "GUANTES PARA HORNEAR"
+                    },
+                    {
+                      "code": "EPP11",
+                      "text": "GUANTES TERMICOS"
+                    },
+                    {
+                      "code": "EPP12",
+                      "text": "GUANTES ANTICORTE"
+                    },
+                    {
+                      "code": "EPP13",
+                      "text": "GUANTES CAUCHO"
+                    },
+                    {
+                      "code": "EPP14",
+                      "text": "GUANTES NITRILO"
+                    },
+                    {
+                      "code": "EPP15",
+                      "text": "MANGAS"
+                    },
+                    {
+                      "code": "EPP16",
+                      "text": "GUANTE NYLON POLIURETANO"
+                    },
+                    {
+                      "code": "EPP17",
+                      "text": "GUANTE POLIESTER CON PUNTOS"
+                    },
+                    {
+                      "code": "EPP18",
+                      "text": "RESP. VAPORES ORGANICOS"
+                    },
+                    {
+                      "code": "EPP19",
+                      "text": "RESP. MATERIAL PARTICULADO"
+                    },
+                    {
+                      "code": "EPP20",
+                      "text": "TAPABOCAS"
+                    },
+                    {
+                      "code": "EPP21",
+                      "text": "GAFAS SEGURIDAD"
+                    },
+                    {
+                      "code": "EPP22",
+                      "text": "CARETA PARA ESMERILAR"
+                    },
+                    {
+                      "code": "EPP23",
+                      "text": "MONOGAFAS"
+                    },
+                    {
+                      "code": "EPP24",
+                      "text": "CARETA SOLDADURA"
+                    },
+                    {
+                      "code": "EPP25",
+                      "text": "TAPAOIDOS COPA"
+                    },
+                    {
+                      "code": "EPP26",
+                      "text": "TAPAOIDOS DE INSERCION"
+                    },
+                    {
+                      "code": "EPP27",
+                      "text": "ARNES"
+                    },
+                    {
+                      "code": "EPP28",
+                      "text": "ESLINGAS"
+                    },
+                    {
+                      "code": "EPP29",
+                      "text": "MOSQUETONES"
+                    },
+                    {
+                      "code": "EPP30",
+                      "text": "BARBUQUEJO"
+                    },
+                    {
+                      "code": "EPP31",
+                      "text": "LINEA DE VIDA"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de extintores": {
+          "sourceForm": "INSPECCIÓN EXTINTOR SOMOS MASA SAS.xlsx",
+          "code": "F-GS-38",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Extintor": {
+                  "items": [
+                    {
+                      "code": "E1",
+                      "text": "Manómetro en buen estado"
+                    },
+                    {
+                      "code": "E2",
+                      "text": "Peso y presión normal"
+                    },
+                    {
+                      "code": "E3",
+                      "text": "Boquilla, válvula y manguera en buen estado"
+                    },
+                    {
+                      "code": "E4",
+                      "text": "Pin ajustado"
+                    },
+                    {
+                      "code": "E5",
+                      "text": "Manija y palanca en buen estado"
+                    },
+                    {
+                      "code": "E6",
+                      "text": "Tiene anillo de servicio"
+                    },
+                    {
+                      "code": "E7",
+                      "text": "Envase libre de corrosiones y daños externos"
+                    },
+                    {
+                      "code": "E8",
+                      "text": "Mantiene la etiqueta de instrucciones de uso en buen estado"
+                    },
+                    {
+                      "code": "E9",
+                      "text": "Señalización con fijación permanente al equipo y visible"
+                    },
+                    {
+                      "code": "E10",
+                      "text": "Está visible y sin obstáculos"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de herramientas y utensilios": {
+          "sourceForm": "INSPECCIÓN HERRAMIENTAS Y UTENSILIOS.xls",
+          "code": "F-GS-40",
+          "scale": "B/M/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Herramientas y utensilios": {
+                  "items": [
+                    {
+                      "code": "H2",
+                      "text": "CUCHILLO MULTIUSOS"
+                    },
+                    {
+                      "code": "H3",
+                      "text": "CUCHILLO DE SIERRA"
+                    },
+                    {
+                      "code": "H4",
+                      "text": "CUCHILLO CHEF"
+                    },
+                    {
+                      "code": "H5",
+                      "text": "AFILADOR DE CUCHILLO CHAIRA"
+                    },
+                    {
+                      "code": "H6",
+                      "text": "AFILADOR DE CUCHILLO PIEDRA"
+                    },
+                    {
+                      "code": "H7",
+                      "text": "ESPATILA CODO PEQUEÑA"
+                    },
+                    {
+                      "code": "H8",
+                      "text": "ESPATULA EXOGLAS GRANDE"
+                    },
+                    {
+                      "code": "H9",
+                      "text": "ESPATULA TEMPERATURA GRANDE"
+                    },
+                    {
+                      "code": "H10",
+                      "text": "ESPATULA TEMPERATURA PEQUEÑA"
+                    },
+                    {
+                      "code": "H11",
+                      "text": "ESPATULA TORTERA METALICA"
+                    },
+                    {
+                      "code": "H12",
+                      "text": "CERNIDOR DE AZURCA EN POLVO"
+                    },
+                    {
+                      "code": "H13",
+                      "text": "PINZAS DE AGARRE"
+                    },
+                    {
+                      "code": "H14",
+                      "text": "ABRELATAS"
+                    },
+                    {
+                      "code": "H15",
+                      "text": "RALLADOR"
+                    },
+                    {
+                      "code": "H16",
+                      "text": "RALLADOR DE LIMON"
+                    },
+                    {
+                      "code": "H17",
+                      "text": "OLLAS"
+                    },
+                    {
+                      "code": "H18",
+                      "text": "SARTENES"
+                    },
+                    {
+                      "code": "H19",
+                      "text": "CUCHARAS PLASTICAS DE POLIPROPILENO"
+                    },
+                    {
+                      "code": "H20",
+                      "text": "TABLA DE PICAR"
+                    },
+                    {
+                      "code": "H21",
+                      "text": "DESCORCHADOR"
+                    },
+                    {
+                      "code": "H22",
+                      "text": "CORTADORA MANZANAS"
+                    },
+                    {
+                      "code": "H23",
+                      "text": "CORTADOR METALICO ENSALADAS"
+                    },
+                    {
+                      "code": "H24",
+                      "text": "RASPE METALICO CON DIENTES"
+                    },
+                    {
+                      "code": "H25",
+                      "text": "RASPE PLASTICO"
+                    },
+                    {
+                      "code": "H26",
+                      "text": "TERMOMETRO DE PUNZÓN"
+                    },
+                    {
+                      "code": "H27",
+                      "text": "FLAMEADOR"
+                    },
+                    {
+                      "code": "H28",
+                      "text": "TIJERAS"
+                    },
+                    {
+                      "code": "H29",
+                      "text": "ESCABILADERO"
+                    },
+                    {
+                      "code": "H30",
+                      "text": "LATAS"
+                    },
+                    {
+                      "code": "H31",
+                      "text": "MOLDES ACERO"
+                    },
+                    {
+                      "code": "H32",
+                      "text": "MOLDES PLASTICOS"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de vehículos": {
+          "sourceForm": "F-GS-36 INSPECCIÓN DE VEHICULOS(1).xlsx",
+          "code": "F-GS-36",
+          "scale": "SI/NO/NA + B/R/M",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Vehículo": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "Tarjeta de propiedad"
+                    },
+                    {
+                      "code": "2",
+                      "text": "Seguro obligatorio (SOAT)"
+                    },
+                    {
+                      "code": "3",
+                      "text": "Seguro todo riesgo"
+                    },
+                    {
+                      "code": "4",
+                      "text": "Revisión tecnico mecánicas y de gases"
+                    },
+                    {
+                      "code": "5",
+                      "text": "Estibas"
+                    },
+                    {
+                      "code": "6",
+                      "text": "Puertas"
+                    },
+                    {
+                      "code": "7",
+                      "text": "Laminas"
+                    },
+                    {
+                      "code": "8",
+                      "text": "Pintura"
+                    },
+                    {
+                      "code": "9",
+                      "text": "Llanta Delantera Derecha"
+                    },
+                    {
+                      "code": "10",
+                      "text": "Llanta Delantera Izquierda"
+                    },
+                    {
+                      "code": "11",
+                      "text": "Llanta Trasera Derecha"
+                    },
+                    {
+                      "code": "12",
+                      "text": "Llanta Trasera Izquierda"
+                    },
+                    {
+                      "code": "13",
+                      "text": "Llanta de Repuesto"
+                    },
+                    {
+                      "code": "14",
+                      "text": "Iluminación cabina"
+                    },
+                    {
+                      "code": "15",
+                      "text": "Cinturones de Seguridad"
+                    },
+                    {
+                      "code": "16",
+                      "text": "Plumillas Limpiavidrios"
+                    },
+                    {
+                      "code": "17",
+                      "text": "Vidrios Parabrisas"
+                    },
+                    {
+                      "code": "18",
+                      "text": "Vidrios Laterales"
+                    },
+                    {
+                      "code": "19",
+                      "text": "Vidrios Traseros"
+                    },
+                    {
+                      "code": "20",
+                      "text": "Luces Principales de alta"
+                    },
+                    {
+                      "code": "21",
+                      "text": "Luces Principales de baja"
+                    },
+                    {
+                      "code": "22",
+                      "text": "Luces Estacionarias"
+                    },
+                    {
+                      "code": "23",
+                      "text": "Espejos laterales"
+                    },
+                    {
+                      "code": "24",
+                      "text": "Espejo retrovisor"
+                    },
+                    {
+                      "code": "25",
+                      "text": "Asientos"
+                    },
+                    {
+                      "code": "26",
+                      "text": "Cojineria"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de maquinaria y equipos": {
+          "sourceForm": "INSPECCIONES A MAQUINARIAS Y EQUIPOS(1).xlsx",
+          "code": "Formato inspección maquinaria y equipos",
+          "scale": "SI/NO/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Maquinaria/equipo": {
+                  "items": [
+                    {
+                      "code": "1",
+                      "text": "El equipo cuenta con parada de emergencia"
+                    },
+                    {
+                      "code": "2",
+                      "text": "El equipo cuenta con guarda de seguridad"
+                    },
+                    {
+                      "code": "3",
+                      "text": "El equipo tiene señalización de seguridad (Riesgo de atrapamiento, riesgo electrico, etc)"
+                    },
+                    {
+                      "code": "4",
+                      "text": "Se encuentran elementos ajenos al equipo dentro de este u obstruyendo su proceso"
+                    },
+                    {
+                      "code": "5",
+                      "text": "El equipo a presentado fallas en los ultimos 2 meses"
+                    },
+                    {
+                      "code": "6",
+                      "text": "(solo si la pregunta anterior fue afirmativa) Dicha falla ya fue intervenida y solucionada"
+                    },
+                    {
+                      "code": "7",
+                      "text": "El equipo a presentado sonidos o vibraciones mas fuertes de las que presenta normalmente"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Inspección de gabinetes contra-incendios": {
+          "sourceForm": "F-GS-39 INSPECCIÓN GABINETE CONTRA-INCENDIOS(1).xlsx",
+          "code": "F-GS-39",
+          "scale": "C/NC/NA",
+          "sectors": {
+            "General": {
+              "sections": {
+                "Gabinetes": {
+                  "items": [
+                    {
+                      "code": "G5",
+                      "text": "SOPORTE CANASTILLA PARA MANGUERA EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G6",
+                      "text": "LLAVE SPANNER DE UN SOLO SERVICIO Y EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G7",
+                      "text": "HACHA EN BUEN ESTADO"
+                    },
+                    {
+                      "code": "G8",
+                      "text": "EXTINTOR BUEN ESTADO"
+                    },
+                    {
+                      "code": "G9",
+                      "text": "BOQUILLA CHORRO NIEBLLA"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
